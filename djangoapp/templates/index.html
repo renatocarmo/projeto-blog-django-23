@@ -2,9 +2,7 @@
 {% block content %}
 	<div class="container">
 		{% if not user.is_anonymous %}
-			<div class="alert alert-primary" role="alert">
-				Seja bem-vindo(a) {{ user.get_full_name }}!
-			</div>
+			<br>
 		{% endif %}
 	</div>
 {% endblock %}
